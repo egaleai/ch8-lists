@@ -12,11 +12,11 @@ meals <- list(breakfast = my_breakfast, lunch = my_lunch)
 
 # Add a "dinner" element to your `meals` list that has what you plan to eat 
 # for dinner
-meals$dinner = "food, food, more food"
+meals$dinner = c("food", "food", "more food")
 
 # Use dollar notation to extract your `dinner` element from your list
 # and save it in a vector called 'dinner'
-
+dinner <- meals$dinner
 
 # Use double-bracket notation to extract your `lunch` element from your list
 # and save it in your list as the element at index 5 (no reason beyond practice)
